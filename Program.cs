@@ -24,6 +24,7 @@ namespace Assignment__3
 
                 st.Add(new Student { id = Id, mark =Mark, name = Name });
             }
+            
             Console.WriteLine("The name of student who passed");
             for (int i=0;i<st.Count;i++)
             {
